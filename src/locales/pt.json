@@ -18,12 +18,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADO ADMINISTRATIVO EM PARNAÍBA - PI",
-    "title": "Advocacia para <span class=\"text-primary font-bold\">Gestões Municipais</span>",
-    "subtitle": "Atuação técnica para fortalecer sua gestão, garantir legalidade e entregar segurança nas decisões públicas.",
+    "miniTag": "MAURO MONÇÃO ADVOGADOS ASSOCIADOS",
+    "title": "Advocacia <span class=\"text-primary font-bold\">Pública</span> e <span class=\"text-primary font-bold\">Tributária</span>",
+    "subtitle": "Atuação técnica para fortalecer sua gestão, garantir segurança jurídica nas decisões e preservar seu patrimônio e economia fiscal.",
     "ctaButtonText": "Quero uma gestão mais segura",
     "obsHero": {
-      "text": "Mais de 15 anos de experiência assessorando administrações públicas municipais."
+      "text": "Mais de 15 anos de experiência e dedicação ao exercício da advocacia."
     }
   },
   "features": {
