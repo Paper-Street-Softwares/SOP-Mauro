@@ -104,7 +104,7 @@ export default function NavbarSocial({ colorMode, mode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer max-w-[150px]"
+            className="cursor-pointer max-w-[150px] tablet1:max-w-[200px] desktop1:max-w-[200px] desktop2:max-w-[300px]"
             spy={true}
             smooth={true}
             duration={500}
@@ -116,7 +116,7 @@ export default function NavbarSocial({ colorMode, mode }) {
               alt={content.texts.navbar.logo.alt}
               className={`${
                 scrolling
-                  ? "w-[80%] transition-all duration-1000 "
+                  ? "w-[90%] transition-all duration-1000 "
                   : "my-[20px] w-full transition-all duration-1000 "
               } tablet3:mb-0`}
             />
