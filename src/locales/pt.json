@@ -83,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. MAURO MONÇÃO",
-    "title": "Minha trajetória",
+    "miniTag": "EQUIPE ESTRATÉGICA",
+    "title": "Nossa trajetória",
     "subtitle": "Uma trajetória construída com experiência, estudo contínuo e compromisso público.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Mauro Monção da Silva é advogado com mais de 15 anos de dedicação à prática jurídica, atuando nos Estados do Ceará, Piauí e Maranhão. Fundou o escritório Mauro Monção Advogados Associados, focado em consultoria e assessoria jurídica para administrações públicas municipais, além de Direito Tributário e Planejamento Sucessório, Societário e Tributário.",
-    "modal": "Mauro Monção da Silva é advogado com mais de 15 anos de dedicação à prática jurídica, atuando nos Estados do Ceará, Piauí e Maranhão. Fundou o escritório Mauro Monção Advogados Associados, focado em consultoria e assessoria jurídica para administrações públicas municipais, além de Direito Tributário e Planejamento Sucessório, Societário e Tributário. <br/><br/> Ao longo de sua trajetória profissional, também exerceu o magistério no Curso de Direito da Universidade Estadual do Piauí – UESPI, ministrando disciplinas como Direito Administrativo, Direito Constitucional e Direito Financeiro, contribuindo para a formação de novos profissionais. <br/><br/> Sua qualificação inclui diversas especializações em nível de pós-graduação, abrangendo áreas essenciais como Direito e Processo Eleitoral, Políticas Públicas, Direito Tributário, Orçamento Público, Direito Legislativo, Direito Administrativo, Gestão Pública e Direito Constitucional, consolidando uma atuação sólida, técnica e comprometida com o interesse público. <br/><br/>",
+    "paragraph": "Para saber mais sobre a trajetória profissional e a qualificação do Fundador e Diretor Executivo (Mauro Monção da Silva) e do Sócio e Coordenador de Comunicação Estratégica (Mauro Monção da Silva Filho), clique em saiba mais e acesse a biografia completa de ambos.",
+    "modal": "<strong>FUNDADOR E DIRETOR EXECUTIVO</strong> <br/> MAURO MONÇÃO DA SILVA é advogado com mais de 15 anos de dedicação à prática jurídica, atuando nos Estados do Ceará, Piauí e Maranhão. Fundou o escritório MAURO MONÇÃO ADVOGADOS ASSOCIADOS, focado em consultoria e assessoria jurídica para administrações públicas municipais, além de Direito Tributário e Planejamento Sucessório, Societário e Tributário. É o responsável pela liderança das operações, supervisiona a equipe executiva do escritório. <br/><br/>Ao longo de sua trajetória profissional, também exerceu o magistério no Curso de Direito da Universidade Estadual do Piauí – UESPI, ministrando disciplinas como Direito Administrativo, Direito Constitucional e Direito Financeiro, contribuindo para a formação de novos profissionais. <br/><br/> Sua qualificação inclui diversas especializações em nível de pós-graduação, abrangendo áreas essenciais como Direito e Processo Eleitoral, Políticas Públicas, Direito Tributário, Orçamento Público, Direito Legislativo, Direito Administrativo, Gestão Pública e Direito Constitucional, consolidando uma atuação sólida, técnica e comprometida com o interesse público. <br/><br/> <strong>SÓCIO E COORDENADOR DE COMUNICAÇÃO ESTRATÉGICA</strong><br/> MAURO MONÇÃO DA SILVA FILHO é advogado e sócio do escritório MAURO MONÇÃO ADVOGADOS ASSOCIADOS, e gerencia o setor de comunicação estratégica e relação com o cliente. É o responsável pela área do direito imobiliário, família e sucessões. <br/><br/> Sua qualificação inclui diversas especializações em nível de pós-graduação, abrangendo áreas essenciais como direito e processo civil, direito negocial, direito imobiliário, família e sucessões, com foco na pratica de inventários.",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutWpp": {
@@ -138,6 +138,24 @@
     "title": "A_Definir",
     "subtitle": "A_Definir",
     "description": "A_Definir"
+  },
+  "pilares": {
+    "miniTag": "PILARES ESTRATÉGICOS",
+    "title": "ASPIRAÇÕES E PRINCÍPIOS QUE GUIAM NOSSAS AÇÕES",
+    "cards": {
+      "card1": {
+        "cardTitle": "Missão",
+        "cardDescription": "A missão do escritório pode é oferecer soluções jurídicas inovadoras e personalizadas, utilizando tecnologia de ponta e a expertise de nossos profissionais para garantir a máxima satisfação e resultados para nossos clientes."
+      },
+      "card2": {
+        "cardTitle": "Visão",
+        "cardDescription": "A visão é ser referência nacional em advocacia inteligente, reconhecido pela excelência, ética e inovação, transformando o mercado jurídico e impactando positivamente a sociedade."
+      },
+      "card3": {
+        "cardTitle": "Valores",
+        "cardDescription": "Os valores de Excelência, Inovação, Ética, Comprometimento com o Cliente, Transparência e Responsabilidade Social."
+      }
+    }
   },
   "ctaSecondary": {
     "title": "<span class=\"text-bgSectionDark font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-bgSectionDark font-bold\">estamos te esperando.</span>",
@@ -203,6 +221,20 @@
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
+  },
+  "office": {
+    "miniTag": "BLOG",
+    "title": "Informação jurídica ao seu alcance",
+    "cards": {
+      "card1": {
+        "title": "Piauí",
+        "description": "Av. Leonardo de Carvalho Castelo Branco, nº 2835, Sala 12, Bairro São Benedito, Parnaíba-PI."
+      },
+      "card2": {
+        "title": "Ceará",
+        "description": "Rua Monsenhor Bruno, nº 1153, Sala 1423, B. Aldeota, Centro Empresarial Scopa Platinum Corporate, Fortaleza - Ce."
+      }
+    }
   },
   "footer": {
     "copyrightLine": "{{year}} - {{name}} - Todos os direitos reservados",
