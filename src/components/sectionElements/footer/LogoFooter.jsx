@@ -1,6 +1,6 @@
-import React from "react";
-import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import content from "../../../content/content";
+import React from 'react'
+import MotionDivDownToUp from '../../animation/MotionDivDownToUp'
+import content from '../../../content/content'
 
 function LogoFooter() {
   return (
@@ -9,11 +9,11 @@ function LogoFooter() {
         <img
           src={content.texts.navbar.logo.img}
           alt={content.texts.navbar.logo.alt}
-          className="max-h-[88px] w-auto "
+          className="max-h-[88px] w-auto bg-bgSectionDark p-2 rounded-md"
         ></img>
       </div>
     </MotionDivDownToUp>
-  );
+  )
 }
 
-export default LogoFooter;
+export default LogoFooter

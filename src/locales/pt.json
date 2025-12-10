@@ -19,8 +19,8 @@
   },
   "hero": {
     "miniTag": "MAURO MONÇÃO ADVOGADOS ASSOCIADOS",
-    "title": "Advocacia <span class=\"text-primary font-bold\">Pública</span> e <span class=\"text-primary font-bold\">Tributária</span>",
-    "subtitle": "Atuação técnica para fortalecer sua gestão, garantir segurança jurídica nas decisões e preservar seu patrimônio e economia fiscal.",
+    "title": "Advocacia com <span class=\"text-primary font-bold\">inovação</span> e <span class=\"text-primary font-bold\">compromisso</span>",
+    "subtitle": "Atuação técnica para garantir segurança jurídica nas suas decisões e preservar seu patrimônio e seus direitos.",
     "ctaButtonText": "Quero uma gestão mais segura",
     "obsHero": {
       "text": "Mais de 15 anos de experiência e dedicação ao exercício da advocacia."
@@ -40,7 +40,7 @@
     "card2": {
       "title": "Advocacia Tributária",
       "subtitle": "Defesa, consultoria e estratégias em tributos.",
-      "description": "Nosso trabalho no Direito Tributário, tem como foco a defesa dos contribuintes na sua relação jurídica tributária com o Estado (União, Estados e Municípios) no que diz respeito à cobrança de impostos, taxas e contribuições e obrigações acessórias, o que incluem:  <br/><br/>a) PLANEJAMENTO TRIBUTÁRIO: Elaborar estratégias legais para reduzir a carga fiscal de empresas e indivíduos, otimizando o pagamento de impostos dentro da legalidade (elisão fiscal).  <br/><br/> b) CONSULTORIA E ASSESSORIA: Orientar clientes sobre a correta aplicação das normas tributárias, acompanhando as constantes alterações na legislação e garantindo a conformidade fiscal (compliance). <br/><br/> c) DEFESA EM PROCESSOS: Representar o contribuinte em litígios fiscais, tanto na esfera administrativa (junto à Receita Federal, Secretarias Estaduais de Fazenda e Prefeituras) quanto na judicial, defendendo contra autuações, multas e cobranças indevidas. <br/><br/> d) RECUPERAÇÃO DE CRÉDITOS TRIBUTÁRIOS: Identificar e buscar a restituição de impostos pagos a maior ou indevidamente.  <br/><br/> e) REVISÃO DE PROCEDIMENTOS FISCAIS: Analisar a apuração de impostos diretos e indiretos e a entrega das obrigações acessórias para garantir a correta aplicação das normas.",
+      "description": "Nosso trabalho no Direito Tributário, tem como foco a defesa dos contribuintes na sua relação jurídica tributária com o Estado (União, Estados e Municípios) no que diz respeito à cobrança de impostos, taxas e contribuições e obrigações acessórias, o que incluem:   <br/><br/> • PLANEJAMENTO TRIBUTÁRIO: Elaborar estratégias legais para reduzir a carga fiscal de empresas e indivíduos, otimizando o pagamento de impostos dentro da legalidade (elisão fiscal). <br/><br/> •  CONSULTORIA E ASSESSORIA: Orientar clientes sobre a correta aplicação das normas tributárias, acompanhando as constantes alterações na legislação e garantindo a conformidade fiscal (compliance). <br/><br/> •  DEFESA EM PROCESSOS: Representar o contribuinte em litígios fiscais, tanto na esfera administrativa (junto à Receita Federal, Secretarias Estaduais de Fazenda e Prefeituras) quanto na judicial, defendendo contra autuações, multas e cobranças indevidas. <br/><br/> •  RECUPERAÇÃO DE CRÉDITOS TRIBUTÁRIOS: Identificar e buscar a restituição de impostos pagos a maior ou indevidamente.  <br/><br/> • REVISÃO DE PROCEDIMENTOS FISCAIS: Analisar a apuração de impostos diretos e indiretos e a entrega das obrigações acessórias para garantir a correta aplicação das normas.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Saiba mais"
     },
@@ -52,26 +52,25 @@
       "buttonLabel": "Saiba mais"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "description": "A_Definir",
+      "title": "Direito Imobiliário",
+      "subtitle": "Negócios, litígios e regularização de imóveis.",
+      "description": "Nosso trabalho em Direito Imobiliário abrange todas as questões legais relativas a bens imóveis, desde a aquisição e venda até a locação, posse e litígios. Atuamos para garantir a segurança jurídica em transações imobiliárias e na regularização de propriedades, o que inclui: <br/><br/>•  ANÁLISE E ELABORAÇÃO DE CONTRATOS: Revisão e criação de contratos de compra e venda, permuta, doação, locação e comodato, assegurando a validade e a proteção dos interesses do cliente. <br/><br/>•  DUE DILIGENCE IMOBILIÁRIA: Investigação completa da situação jurídica do imóvel e dos vendedores/compradores, prevenindo riscos e passivos ocultos na transação. <br/><br/>•  REGULARIZAÇÃO DE IMÓVEIS: Orientação e condução de processos para a regularização de propriedades junto a Cartórios de Registro de Imóveis, Prefeituras e outros órgãos (e.g., usucapião, inventário, averbações). <br/><br/>•  LITÍGIOS IMOBILIÁRIOS: Representação em ações judiciais como despejo, cobrança de aluguéis, possessórias (reintegração, manutenção de posse) e disputas de vizinhança. ",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir",
-      "servicesButton": "A_Definir"
+      "buttonLabel": "Saiba mais",
+      "servicesButton": ""
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "title": "Família e Sucessões",
+      "subtitle": "Planejamento, divórcios, partilhas e inventários.",
+      "description": "Nosso trabalho em Direito de Família e Sucessões oferece suporte jurídico em momentos de reestruturação familiar e planejamento sucessório. Buscamos soluções que conciliem o aspecto legal com a sensibilidade das relações pessoais, o que envolve: <br/><br/>•  DIVÓRCIO E DISSOLUÇÃO DE UNIÃO ESTÁVEL: Condução de processos de divórcio consensual ou litigioso, incluindo a partilha de bens e a definição de pensão alimentícia. <br/><br/>•  GUARDA E REGULAMENTAÇÃO DE VISITAS: Assessoria na definição da guarda (compartilhada ou unilateral) e do regime de convivência dos filhos menores. <br/><br/>•  ALIMENTOS: Ajuizamento e defesa em ações de alimentos (fixação, revisão e execução). <br/><br/>•  INVENTÁRIO E PARTILHA DE BENS: Condução do processo de transferência do patrimônio do falecido, seja na esfera judicial ou extrajudicial (em cartório), visando a partilha justa e eficiente entre os herdeiros. <br/><br/>•  TESTAMENTOS E PACTOS ANTENUPCIAIS: Elaboração de testamentos, pactos antenupciais e contratos de união estável para organizar a vida patrimonial e sucessória.",
+      "buttonLabel": "Saiba mais"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "description": "A_Definir",
+      "title": "Direito Ambiental",
+      "subtitle": "Consultoria e defesa em licenças e conformidade ambiental.",
+      "description": "Nosso trabalho em Direito Ambiental foca na assessoria para empresas e indivíduos que precisam garantir a conformidade com a legislação ambiental e se defender em processos administrativos ou judiciais. Atuamos na interface entre o desenvolvimento econômico e a preservação do meio ambiente, incluindo: <br/><br/>•  LICENCIAMENTO AMBIENTAL: Orientação e acompanhamento em todas as fases do processo de licenciamento ambiental (Prévia, Instalação e Operação) junto aos órgãos competentes (federais, estaduais e municipais). <br/><br/>•  CONSULTORIA EM COMPLIANCE AMBIENTAL: Avaliação de risco e implementação de práticas para garantir que as atividades do cliente estejam em total conformidade com as normas ambientais vigentes. <br/><br/>•  DEFESA EM AUTUAÇÕES E MULTAS: Representação em processos administrativos decorrentes de fiscalizações e infrações ambientais, buscando anulação ou redução de penalidades. <br/><br/>•  GESTÃO DE RESÍDUOS SÓLIDOS: Assessoria na elaboração e implementação de Planos de Gerenciamento de Resíduos Sólidos (PGRS) e na logística reversa. <br/><br/>•  ÁREAS DE PRESERVAÇÃO PERMANENTE (APP) E RESERVA LEGAL: Análise e orientação sobre a delimitação e uso de áreas protegidas em propriedades rurais e urbanas.",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Saiba mais"
     }
   },
   "maps": {
@@ -84,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. MAURO MONÇÃO",
-    "title": "Minha trajetória",
+    "miniTag": "EQUIPE ESTRATÉGICA",
+    "title": "Nossa trajetória",
     "subtitle": "Uma trajetória construída com experiência, estudo contínuo e compromisso público.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Mauro Monção da Silva é advogado com mais de 15 anos de dedicação à prática jurídica, atuando nos Estados do Ceará, Piauí e Maranhão. Fundou o escritório Mauro Monção Advogados Associados, focado em consultoria e assessoria jurídica para administrações públicas municipais, além de Direito Tributário e Planejamento Sucessório, Societário e Tributário.",
-    "modal": "Mauro Monção da Silva é advogado com mais de 15 anos de dedicação à prática jurídica, atuando nos Estados do Ceará, Piauí e Maranhão. Fundou o escritório Mauro Monção Advogados Associados, focado em consultoria e assessoria jurídica para administrações públicas municipais, além de Direito Tributário e Planejamento Sucessório, Societário e Tributário. <br/><br/> Ao longo de sua trajetória profissional, também exerceu o magistério no Curso de Direito da Universidade Estadual do Piauí – UESPI, ministrando disciplinas como Direito Administrativo, Direito Constitucional e Direito Financeiro, contribuindo para a formação de novos profissionais. <br/><br/> Sua qualificação inclui diversas especializações em nível de pós-graduação, abrangendo áreas essenciais como Direito e Processo Eleitoral, Políticas Públicas, Direito Tributário, Orçamento Público, Direito Legislativo, Direito Administrativo, Gestão Pública e Direito Constitucional, consolidando uma atuação sólida, técnica e comprometida com o interesse público. <br/><br/>",
+    "paragraph": "Para saber mais sobre a trajetória profissional e a qualificação do Fundador e Diretor Executivo (Mauro Monção da Silva) e do Sócio e Coordenador de Comunicação Estratégica (Mauro Monção da Silva Filho), clique em saiba mais e acesse a biografia completa de ambos.",
+    "modal": "<strong>FUNDADOR E DIRETOR EXECUTIVO</strong> <br/> MAURO MONÇÃO DA SILVA é advogado com mais de 15 anos de dedicação à prática jurídica, atuando nos Estados do Ceará, Piauí e Maranhão. Fundou o escritório MAURO MONÇÃO ADVOGADOS ASSOCIADOS, focado em consultoria e assessoria jurídica para administrações públicas municipais, além de Direito Tributário e Planejamento Sucessório, Societário e Tributário. É o responsável pela liderança das operações, supervisiona a equipe executiva do escritório. <br/><br/>Ao longo de sua trajetória profissional, também exerceu o magistério no Curso de Direito da Universidade Estadual do Piauí – UESPI, ministrando disciplinas como Direito Administrativo, Direito Constitucional e Direito Financeiro, contribuindo para a formação de novos profissionais. <br/><br/> Sua qualificação inclui diversas especializações em nível de pós-graduação, abrangendo áreas essenciais como Direito e Processo Eleitoral, Políticas Públicas, Direito Tributário, Orçamento Público, Direito Legislativo, Direito Administrativo, Gestão Pública e Direito Constitucional, consolidando uma atuação sólida, técnica e comprometida com o interesse público. <br/><br/> <strong>SÓCIO E COORDENADOR DE COMUNICAÇÃO ESTRATÉGICA</strong><br/> MAURO MONÇÃO DA SILVA FILHO é advogado e sócio do escritório MAURO MONÇÃO ADVOGADOS ASSOCIADOS, e gerencia o setor de comunicação estratégica e relação com o cliente. É o responsável pela área do direito imobiliário, família e sucessões. <br/><br/> Sua qualificação inclui diversas especializações em nível de pós-graduação, abrangendo áreas essenciais como direito e processo civil, direito negocial, direito imobiliário, família e sucessões, com foco na pratica de inventários.",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutWpp": {
@@ -139,6 +138,24 @@
     "title": "A_Definir",
     "subtitle": "A_Definir",
     "description": "A_Definir"
+  },
+  "pilares": {
+    "miniTag": "PILARES ESTRATÉGICOS",
+    "title": "ASPIRAÇÕES E PRINCÍPIOS QUE GUIAM NOSSAS AÇÕES",
+    "cards": {
+      "card1": {
+        "cardTitle": "Missão",
+        "cardDescription": "A missão do escritório pode é oferecer soluções jurídicas inovadoras e personalizadas, utilizando tecnologia de ponta e a expertise de nossos profissionais para garantir a máxima satisfação e resultados para nossos clientes."
+      },
+      "card2": {
+        "cardTitle": "Visão",
+        "cardDescription": "A visão é ser referência nacional em advocacia inteligente, reconhecido pela excelência, ética e inovação, transformando o mercado jurídico e impactando positivamente a sociedade."
+      },
+      "card3": {
+        "cardTitle": "Valores",
+        "cardDescription": "Os valores de Excelência, Inovação, Ética, Comprometimento com o Cliente, Transparência e Responsabilidade Social."
+      }
+    }
   },
   "ctaSecondary": {
     "title": "<span class=\"text-bgSectionDark font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-bgSectionDark font-bold\">estamos te esperando.</span>",
@@ -204,6 +221,20 @@
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
+  },
+  "office": {
+    "miniTag": "Nossos escritórios",
+    "title": "Mais do que apenas escritórios, estamos onde você precisa",
+    "cards": {
+      "card1": {
+        "title": "Piauí",
+        "description": "Av. Leonardo de Carvalho Castelo Branco, nº 2835, Sala 12, Bairro São Benedito, Parnaíba-PI."
+      },
+      "card2": {
+        "title": "Ceará",
+        "description": "Rua Monsenhor Bruno, nº 1153, Sala 1423, B. Aldeota, Centro Empresarial Scopa Platinum Corporate, Fortaleza - Ce."
+      }
+    }
   },
   "footer": {
     "copyrightLine": "{{year}} - {{name}} - Todos os direitos reservados",

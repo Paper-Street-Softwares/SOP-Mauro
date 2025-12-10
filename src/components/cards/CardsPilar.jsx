@@ -1,4 +1,4 @@
-export default function IconButtonFeatureCard(props) {
+export default function CardsPilar(props) {
   const { icon, title, paragraph, className, children, colorMode } = props
 
   // Definir classes de cor com base no modo
