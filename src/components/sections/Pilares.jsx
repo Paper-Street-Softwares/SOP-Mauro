@@ -29,7 +29,7 @@ function Pilares({ colorMode }) {
     <SectionArea className={`${bgClass}`}>
       <SectionWrapper>
         <SectionHeader
-          className="hidden text-center desktop1:flex"
+          className=" text-center  mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
           miniTitle={t('pilares.miniTag')}
           sectionHeaderTitle={t('pilares.title')}
           type=""

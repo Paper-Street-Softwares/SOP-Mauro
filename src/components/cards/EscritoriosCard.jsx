@@ -18,7 +18,7 @@ export default function EscritoriosCard(props) {
 
   return (
     <div
-      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet1:h-auto tablet1:max-w-[350px] desktop1:max-w-[350px] desktop3:max-w-[310px] flex flex-col items-center py-4 px-6 rounded-md bg-white shadow ${className}`}
+      className={`w-[250px] phone2:w-[305px] phone3:w-[360px] tablet1:h-auto tablet1:w-[390px] desktop1:max-w-[390px] flex flex-col items-center py-4 px-6 rounded-md bg-white shadow ${className}`}
     >
       <h1
         className={`h-auto mb-4 font-bold font-mainFont text-title1 text-center flex items-start  ${textClass}`}
