@@ -1,10 +1,10 @@
-import React from "react";
-import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import { MapPin } from "lucide-react";
-import { useTranslation } from "react-i18next";
+import React from 'react'
+import MotionDivDownToUp from '../../animation/MotionDivDownToUp'
+import { MapPin } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
-function AdressFooter({ showSecond = false }) {
-  const { t } = useTranslation();
+function AdressFooter({ showSecond = true }) {
+  const { t } = useTranslation()
 
   return (
     <>
@@ -16,7 +16,7 @@ function AdressFooter({ showSecond = false }) {
           </div>
           <p
             dangerouslySetInnerHTML={{
-              __html: t("infos.adress"),
+              __html: t('infos.adress'),
             }}
           />
         </div>
@@ -32,14 +32,14 @@ function AdressFooter({ showSecond = false }) {
 
             <p
               dangerouslySetInnerHTML={{
-                __html: t("infos.adressSecundario"),
+                __html: t('infos.adressSecundario'),
               }}
             ></p>
           </div>
         </MotionDivDownToUp>
       )}
     </>
-  );
+  )
 }
 
-export default AdressFooter;
+export default AdressFooter

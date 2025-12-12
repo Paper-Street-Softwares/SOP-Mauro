@@ -66,7 +66,7 @@ const currentYear = new Date().getFullYear()
 export const infos = {
   name: 'Dr. Mauro Monção',
   email: 'contato', // Email desejado pelo cliente
-  emailSecundario: 'mauromoncaofilho@gmail.com', // Email desejado pelo cliente
+  emailSecundario: 'contato@mauromoncao.adv.br', // Email desejado pelo cliente
   domain: 'mauromoncao.adv.br', // Sem "www"
   phone: {
     ddd: '86',
@@ -74,9 +74,9 @@ export const infos = {
     secondPart: '0054', // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: 'A_Definir',
-    firstPart: 'A_Definir', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: 'A_Definir', // Apenas os 4 últimos números
+    ddd: '86',
+    firstPart: '99948', // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: '4761', // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: 'A_Definir',

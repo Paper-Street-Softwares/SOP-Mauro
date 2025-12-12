@@ -4,7 +4,7 @@ import { PhoneCall } from "lucide-react";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-function PhoneFooter({ colorMode, phoneTwo = false, phoneThree = false }) {
+function PhoneFooter({ colorMode, phoneTwo = true, phoneThree = false }) {
   // Define a cor do ícone com base no modo
   let iconColor = "";
 
