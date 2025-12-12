@@ -77,7 +77,7 @@ export default function Index() {
         paragraphsModal={true}
         iconsWithModal={false}
       />
-      <About modal={true} showGallery={true} colorMode={colorMode} />
+      <About modal={false} showGallery={false} colorMode={colorMode} />
       <Pilares />
       <AboutInstagram colorMode={colorMode} socialPrint={false} />
       {/* <Team /> */}
