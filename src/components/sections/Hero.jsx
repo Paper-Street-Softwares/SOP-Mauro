@@ -52,7 +52,10 @@ export default function Hero({
         <div
           className={`flex justify-center desktop1:justify-start font-medium leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
         >
-          <h1 dangerouslySetInnerHTML={{ __html: t('hero.title') }} />
+          <h1
+            className="min-h-[120px] tablet1:min-h-[200px]"
+            dangerouslySetInnerHTML={{ __html: t('hero.title') }}
+          />
         </div>
 
         <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
@@ -166,9 +169,8 @@ export default function Hero({
                         src="lawHero.webp"
                         alt={content.texts.hero.alt}
                         fetchpriority="high"
-                        decoding="sync"
-                        width="930"
-                        height="1287"
+                        width="450"
+                        height="450"
                         className={`mt-[20px] desktop1:mt-0 rounded-xl w-full  object-cover
                         ${
                           colorMode === 'light'
