@@ -161,12 +161,8 @@ export default function Hero({
                 <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
                   <div className="relative flex justify-center w-full">
                     <picture>
-                      <source
-                        srcSet={content.texts.hero.heroDefaultImageMobile}
-                        media="(max-width: 424px)"
-                      />
                       <img
-                        src={content.texts.hero.heroDefaultImage}
+                        src="/lawHero.webp"
                         alt={content.texts.hero.alt}
                         fetchpriority="high"
                         decoding="sync"
