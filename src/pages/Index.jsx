@@ -60,41 +60,43 @@ export default function Index() {
       </div> */}
 
       <Navbar colorMode={colorMode} />
-      <Hero
-        colorMode={colorMode}
-        appDownloadButtons={false}
-        defaultHero={true}
-        influencer={false}
-        panoramica={false}
-      />
-      <Features
-        colorMode={colorMode}
-        defaultFeature={false}
-        button={false}
-        modalWithCards={false}
-        paragraphs={false}
-        sixCards={false}
-        paragraphsModal={true}
-        iconsWithModal={false}
-      />
-      <About modal={false} showGallery={false} colorMode={colorMode} />
-      <Pilares />
-      <AboutInstagram colorMode={colorMode} socialPrint={false} />
-      {/* <Team /> */}
-      <CtaSecondary colorMode={colorMode} />
-      <Steps colorMode={colorMode} />
-      <BlogPosts />
-      <Faq colorMode={colorMode} />
-      <Offices />
-      {/* <Maps colorMode={colorMode} /> */}
-      <FooterSocial
-        colorMode={colorMode}
-        addres={true}
-        obs={false}
-        expediente={true}
-      />
-      <FloatingWhatsappButton />
-      <BackToTopButton />
+      <main>
+        <Hero
+          colorMode={colorMode}
+          appDownloadButtons={false}
+          defaultHero={true}
+          influencer={false}
+          panoramica={false}
+        />
+        <Features
+          colorMode={colorMode}
+          defaultFeature={false}
+          button={false}
+          modalWithCards={false}
+          paragraphs={false}
+          sixCards={false}
+          paragraphsModal={true}
+          iconsWithModal={false}
+        />
+        <About modal={false} showGallery={false} colorMode={colorMode} />
+        <Pilares />
+        <AboutInstagram colorMode={colorMode} socialPrint={false} />
+        {/* <Team /> */}
+        <CtaSecondary colorMode={colorMode} />
+        <Steps colorMode={colorMode} />
+        <BlogPosts />
+        <Faq colorMode={colorMode} />
+        <Offices />
+        {/* <Maps colorMode={colorMode} /> */}
+        <FooterSocial
+          colorMode={colorMode}
+          addres={true}
+          obs={false}
+          expediente={true}
+        />
+        <FloatingWhatsappButton />
+        <BackToTopButton />
+      </main>
     </>
   )
 }
