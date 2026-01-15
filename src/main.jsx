@@ -1,47 +1,47 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ReactDOM from "react-dom/client";
-import "./i18n"; // ← importa a configuração do idioma
-import content from "./content/content.jsx";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import ReactDOM from 'react-dom/client'
+import './i18n' // ← importa a configuração do idioma
+import content from './content/content.jsx'
 
-import Index from "./pages/Index.jsx";
-import Lp01 from "./pages/Lp01.jsx";
+import Index from './pages/Index.jsx'
+// import Lp01 from "./pages/Lp01.jsx";
 
-import WhatsAppLinks from "./components/interactives/WhatsappLinks.jsx";
+// import WhatsAppLinks from './components/interactives/WhatsappLinks.jsx'
 
 // Layout fixo para o modo "site"
-import SiteLayout from "./pages/SiteLayoult.jsx";
-import Features from "./components/sections/Features.jsx";
-import About from "./components/sections/About.jsx";
-import Faq from "./components/sections/Faq.jsx";
+import SiteLayout from './pages/SiteLayoult.jsx'
+import Features from './components/sections/Features.jsx'
+import About from './components/sections/About.jsx'
+import Faq from './components/sections/Faq.jsx'
 
-import "./index.css";
-import "./styles/backgrounds.css";
-import BlogPosts from "./components/sections/BlogPosts.jsx";
-import Maps from "./components/sections/Maps.jsx";
-import AboutInstagram from "./components/sections/AboutInstagram.jsx";
-import CartaoSocio from "./components/sections/CartaoSocio.jsx";
-import { ColorModeProvider } from "./assets/context/ColorModeContext.jsx";
-import IndexLpi from "./pages/IndexLpi.jsx";
+import './index.css'
+import './styles/backgrounds.css'
+import BlogPosts from './components/sections/BlogPosts.jsx'
+import Maps from './components/sections/Maps.jsx'
+import AboutInstagram from './components/sections/AboutInstagram.jsx'
+import CartaoSocio from './components/sections/CartaoSocio.jsx'
+import { ColorModeProvider } from './assets/context/ColorModeContext.jsx'
+// import IndexLpi from "./pages/IndexLpi.jsx";
 
 // Altere aqui para "LP" ou "site"
-const mode = "LP"; // só muda isso e o resto se adapta
+const mode = 'LP' // só muda isso e o resto se adapta
 
 // Função para normalizar o nome (remover acentos e espaços)
 function formatarNome(nome) {
   return nome
-    ?.normalize("NFD") // separa acentos
-    .replace(/[\u0300-\u036f]/g, "") // remove acentos
-    .replace(/\s+/g, "") // remove espaços
-    .trim();
+    ?.normalize('NFD') // separa acentos
+    .replace(/[\u0300-\u036f]/g, '') // remove acentos
+    .replace(/\s+/g, '') // remove espaços
+    .trim()
 }
-const socioNome = content?.texts?.socios?.socio1?.nome || "";
-const socioRota = socioNome ? formatarNome(socioNome) : "";
+const socioNome = content?.texts?.socios?.socio1?.nome || ''
+const socioRota = socioNome ? formatarNome(socioNome) : ''
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <ColorModeProvider>
-    {" "}
+    {' '}
     <Router>
-      {mode === "LP" ? (
+      {mode === 'LP' ? (
         <Routes>
           <Route path="/" element={<Index mode={mode} />} />
           {/* <Route path="/" element={<IndexLpi />} /> */}
@@ -98,4 +98,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       )}
     </Router>
   </ColorModeProvider>
-);
+)
