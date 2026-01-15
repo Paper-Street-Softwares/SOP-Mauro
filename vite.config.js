@@ -28,7 +28,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           react: ['react', 'react-dom'],
-          vendor: ['framer-motion', 'lucide-react', 'prime-react'],
+          vendor: ['framer-motion', 'lucide-react', 'primereact'],
         },
       },
     },
