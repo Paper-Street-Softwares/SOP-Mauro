@@ -34,15 +34,16 @@ export default function Index() {
   return (
     <>
       <Navbar colorMode={colorMode} />
-      <Hero
-        colorMode={colorMode}
-        appDownloadButtons={false}
-        defaultHero={true}
-        influencer={false}
-        panoramica={false}
-      />
+
       <main>
         {' '}
+        <Hero
+          colorMode={colorMode}
+          appDownloadButtons={false}
+          defaultHero={true}
+          influencer={false}
+          panoramica={false}
+        />
         <Features
           colorMode={colorMode}
           defaultFeature={false}
