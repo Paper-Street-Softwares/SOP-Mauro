@@ -1,5 +1,5 @@
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import Button from "../interactives/Button";
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import Button from '../interactives/Button'
 
 export default function WordPressBlogCard({ img, title, subtitle, link }) {
   return (
@@ -52,5 +52,5 @@ export default function WordPressBlogCard({ img, title, subtitle, link }) {
         </div>
       </MotionDivDownToUp>
     </div>
-  );
+  )
 }
