@@ -93,11 +93,15 @@ export default function About({ modal = true, showGallery, colorMode }) {
                   srcSet={
                     content.texts.about.galeria.slide2.imgMobile.imgMobile2
                   }
+                  width="485"
+                  height="auto"
                   media="(max-width: 424px)"
                 />
                 <img
                   src={content.texts.about.galeria.slide2.img.img2}
                   alt={content.texts.about.galeria.slide2.alt}
+                  width="485"
+                  height="auto"
                   className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl shadow-custom-opacity shadow-shadowAbouts/20"
                 />
               </picture>
