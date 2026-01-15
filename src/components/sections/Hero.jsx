@@ -166,9 +166,10 @@ export default function Hero({
                         media="(max-width: 424px)"
                       />
                       <img
-                        src="lawHero.webp"
+                        src={content.texts.hero.heroDefaultImage}
                         alt={content.texts.hero.alt}
                         fetchpriority="high"
+                        decoding="sync"
                         width="450"
                         height="450"
                         className={`mt-[20px] desktop1:mt-0 rounded-xl w-full  object-cover
