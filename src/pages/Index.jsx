@@ -41,34 +41,37 @@ export default function Index() {
         influencer={false}
         panoramica={false}
       />
-      <Features
-        colorMode={colorMode}
-        defaultFeature={false}
-        button={false}
-        modalWithCards={false}
-        paragraphs={false}
-        sixCards={false}
-        paragraphsModal={true}
-        iconsWithModal={false}
-      />
-      <About modal={false} showGallery={false} colorMode={colorMode} />
-      <Pilares />
-      <AboutInstagram colorMode={colorMode} socialPrint={false} />
-      {/* <Team /> */}
-      <CtaSecondary colorMode={colorMode} />
-      <Steps colorMode={colorMode} />
-      <BlogPosts />
-      <Faq colorMode={colorMode} />
-      <Offices />
-      {/* <Maps colorMode={colorMode} /> */}
-      <FooterSocial
-        colorMode={colorMode}
-        addres={true}
-        obs={false}
-        expediente={true}
-      />
-      <FloatingWhatsappButton />
-      <BackToTopButton />
+      <main>
+        {' '}
+        <Features
+          colorMode={colorMode}
+          defaultFeature={false}
+          button={false}
+          modalWithCards={false}
+          paragraphs={false}
+          sixCards={false}
+          paragraphsModal={true}
+          iconsWithModal={false}
+        />
+        <About modal={false} showGallery={false} colorMode={colorMode} />
+        <Pilares />
+        <AboutInstagram colorMode={colorMode} socialPrint={false} />
+        {/* <Team /> */}
+        <CtaSecondary colorMode={colorMode} />
+        <Steps colorMode={colorMode} />
+        <BlogPosts />
+        <Faq colorMode={colorMode} />
+        <Offices />
+        {/* <Maps colorMode={colorMode} /> */}
+        <FooterSocial
+          colorMode={colorMode}
+          addres={true}
+          obs={false}
+          expediente={true}
+        />
+        <FloatingWhatsappButton />
+        <BackToTopButton />
+      </main>
     </>
   )
 }
