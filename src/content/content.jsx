@@ -401,9 +401,9 @@ const content = {
 
       aboutSocial: {
         img: {
-          img: aboutSocialImg,
+          // img: aboutSocialImg,
           imgSocial: aboutInstagram,
-          imgMobile: aboutSocialImgMobile,
+          // imgMobile: aboutSocialImgMobile,
           imgSocialMobile: aboutInstagramMobile,
           alt: `Foto do Instagram do ${infos.name}`,
           altDefault: 'Imagem ilustrativa da Seção de Redes Sociais',
