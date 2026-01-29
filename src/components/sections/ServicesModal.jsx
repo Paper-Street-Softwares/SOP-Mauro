@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
-import AcordionModalServices from "../interactives/AcordionModalServices";
+// import AcordionModalServices from "../interactives/AcordionModalServices";
 import Button from "../interactives/Button";
 import content from "../../content/content";
 

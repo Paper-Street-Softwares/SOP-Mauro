@@ -12,7 +12,7 @@ import img1 from '../assets/imgs/about/imgGaleria1.webp'
 import img2 from '../assets/imgs/about/imgGaleria2.webp'
 // import img3 from '../assets/imgs/about/imgGaleria3.webp'
 // import img4 from '../assets/imgs/about/imgGaleria4.webp'
-import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
+
 import aboutInstagram from '../assets/imgs/about/imgAboutInstagram.webp'
 
 import imgSteps from '../assets/imgs/steps/imgSteps.webp'
@@ -52,7 +52,7 @@ import { FileText } from 'lucide-react'
 // versão mobile
 import heroDefaultImgMobile from '../assets/imgs/hero/lawHeroMobile.webp'
 import aboutImgMobile from '../assets/imgs/about/AboutImgMobile.webp'
-import aboutSocialImgMobile from '../assets/imgs/about/aboutSocialMobile.webp'
+
 import aboutInstagramMobile from '../assets/imgs/about/imgAboutInstagramMobile.webp'
 import imgStepsMobile from '../assets/imgs/steps/imgStepsMobile.webp'
 import imgMobile1 from '../assets/imgs/about/imgGaleriaMobile1.webp'
