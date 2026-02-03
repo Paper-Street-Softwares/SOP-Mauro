@@ -1,23 +1,23 @@
-import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import content from "../../../content/content";
-import { PhoneCall } from "lucide-react";
+import MotionDivDownToUp from '../../animation/MotionDivDownToUp'
+import content from '../../../content/content'
+import { PhoneCall } from 'lucide-react'
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`
 
-function PhoneFooter({ colorMode, phoneTwo = true, phoneThree = false }) {
+function PhoneFooter({ colorMode, phoneTwo = false, phoneThree = false }) {
   // Define a cor do ícone com base no modo
-  let iconColor = "";
+  let iconColor = ''
 
   switch (colorMode) {
-    case "light":
-      iconColor = "text-iconButtons";
-      break;
-    case "dark":
-      iconColor = "text-iconButtons";
-      break;
+    case 'light':
+      iconColor = 'text-iconButtons'
+      break
+    case 'dark':
+      iconColor = 'text-iconButtons'
+      break
     default:
-      iconColor = "text-iconButtons";
-      break;
+      iconColor = 'text-iconButtons'
+      break
   }
 
   return (
@@ -96,7 +96,7 @@ function PhoneFooter({ colorMode, phoneTwo = true, phoneThree = false }) {
         </MotionDivDownToUp>
       )}
     </>
-  );
+  )
 }
 
-export default PhoneFooter;
+export default PhoneFooter

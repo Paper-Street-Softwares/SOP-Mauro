@@ -1,7 +1,7 @@
-import React from "react";
-import CustomTag from "../util/CustomTag";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import { getWhatsappLink } from "../util/WhatsappLink"; // Importando a função
+import React from 'react'
+import CustomTag from '../util/CustomTag'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import { getWhatsappLink } from '../util/WhatsappLink' // Importando a função
 
 export default function Button({
   icon,
@@ -23,36 +23,36 @@ export default function Button({
   noScale = false,
 }) {
   // Define estilos com base no tamanho
-  let textSizeClass = "";
-  if (size === "small") {
-    sizeFeatures = "rounded-[4px] px-[18px] py-[10px]";
-    textSizeClass = "text-paragraph3 font-secondFont";
-    gap = "gap-[10px]";
+  let textSizeClass = ''
+  if (size === 'small') {
+    sizeFeatures = 'rounded-[4px] px-[18px] py-[10px]'
+    textSizeClass = 'text-paragraph3 font-secondFont'
+    gap = 'gap-[10px]'
   } else {
-    sizeFeatures = "rounded-[8px] px-[30px] py-[16px]";
-    textSizeClass = "text-paragraph2 tablet1:text-paragraph4 font-secondFont";
-    gap = "gap-[20px]";
+    sizeFeatures = 'rounded-[8px] px-[30px] py-[16px]'
+    textSizeClass = 'text-paragraph2 tablet1:text-paragraph4 font-secondFont'
+    gap = 'gap-[20px]'
   }
 
-  const Animation = animation ? MotionDivDownToUp : "div";
-  const CustomTagName = removeAnchor ? "div" : tagName || "a";
+  const Animation = animation ? MotionDivDownToUp : 'div'
+  const CustomTagName = removeAnchor ? 'div' : tagName || 'a'
 
   const buttonColors = {
-    dark: "text-labelButtons",
-    light: "text-labelButtons",
-    default: "text-labelButtons",
-  };
-  const buttonColor = buttonColors[colorMode] || buttonColors.default;
+    dark: 'text-labelButtons',
+    light: 'text-labelButtons',
+    default: 'text-labelButtons',
+  }
+  const buttonColor = buttonColors[colorMode] || buttonColors.default
 
-  const shouldRedirectToWhatsapp = !buttonLink && !onClick;
+  const shouldRedirectToWhatsapp = !buttonLink && !onClick
   const finalButtonLink = shouldRedirectToWhatsapp
     ? getWhatsappLink()
-    : buttonLink;
+    : buttonLink
 
   return (
     <CustomTag
       tagName={CustomTagName}
-      {...(removeTarget ? {} : { target: "_blank" })}
+      {...(removeTarget ? {} : { target: '_blank' })}
       {...(removeAnchor ? {} : { href: finalButtonLink })}
       className="inline-block max-w-full w-fit"
     >
@@ -61,9 +61,9 @@ export default function Button({
           <button
             onClick={onClick}
             className={`flex ${className} ${sizeFeatures} shadow-custom-opacityButton shadow-shadowHero/0 ${
-              color || "bg-buttonColor"
+              color || 'bg-buttonColor'
             } flex-row items-center justify-around transition text-labelButtons ${
-              noScale ? "" : "desktop1:hover:scale-110"
+              noScale ? '' : 'desktop1:hover:scale-110 duration-500'
             }`}
           >
             <div
@@ -102,5 +102,5 @@ export default function Button({
         </div>
       )}
     </CustomTag>
-  );
+  )
 }

@@ -9,21 +9,23 @@ import './../i18n'
 import { useColorMode } from '../assets/context/ColorModeContext'
 import Pilares from '../components/sections/Pilares'
 import Offices from '../components/sections/Offices'
+import FooterNovoTemplate from '../components/sections/FooterNovo'
+import ContactForm from '../components/sections/ContactForm'
 
 const Features = lazy(() => import('../components/sections/Features'))
 const About = lazy(() => import('../components/sections/About'))
 const Steps = lazy(() => import('../components/sections/Steps'))
-const AboutInstagram = lazy(() =>
-  import('../components/sections/AboutInstagram')
+const AboutInstagram = lazy(
+  () => import('../components/sections/AboutInstagram'),
 )
-const BackToTopButton = lazy(() =>
-  import('../components/interactives/BackToTopButton')
+const BackToTopButton = lazy(
+  () => import('../components/interactives/BackToTopButton'),
 )
 const BlogPosts = lazy(() => import('../components/sections/BlogPosts'))
 const CtaSecondary = lazy(() => import('../components/sections/CtaSecondary'))
 const FooterSocial = lazy(() => import('../components/sections/FooterSocial'))
-const FloatingWhatsappButton = lazy(() =>
-  import('../components/interactives/FloatingWhatsappButton')
+const FloatingWhatsappButton = lazy(
+  () => import('../components/interactives/FloatingWhatsappButton'),
 )
 const Faq = lazy(() => import('../components/sections/Faq'))
 
@@ -59,16 +61,24 @@ export default function Index() {
         <AboutInstagram colorMode={colorMode} socialPrint={false} />
         {/* <Team /> */}
         <CtaSecondary colorMode={colorMode} />
+        <ContactForm />
         <Steps colorMode={colorMode} />
         <BlogPosts />
         <Faq colorMode={colorMode} />
         <Offices />
         {/* <Maps colorMode={colorMode} /> */}
-        <FooterSocial
+        {/* <FooterSocial
           colorMode={colorMode}
           addres={true}
           obs={false}
           expediente={true}
+        /> */}
+        <FooterNovoTemplate
+          colorMode={colorMode}
+          adress={true}
+          adressTwo={true}
+          expediente={true}
+          fraseFooter={true}
         />
         <FloatingWhatsappButton />
         <BackToTopButton />

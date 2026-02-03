@@ -51,7 +51,7 @@ export default function About({ modal = true, showGallery, colorMode }) {
           titleColorSet={titleColor}
           subtitleColorSet={subtitleColor}
         />
-        <div className="flex flex-col desktop1:flex-row gap-12 w-full justify-between items-center">
+        <div className="flex flex-col desktop1:flex-row gap-12 w-full justify-around items-center">
           <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl">
             {showGallery ? (
               <GalleryAbout />
@@ -85,7 +85,7 @@ export default function About({ modal = true, showGallery, colorMode }) {
           </div>
         </div>
 
-        <div className="flex flex-col desktop1:flex-row-reverse gap-12 mt-6 desktop1:mt-24 w-full justify-between items-center">
+        {/* <div className="flex flex-col desktop1:flex-row-reverse gap-12 mt-6 desktop1:mt-24 w-full justify-between items-center">
           <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl">
             {showGallery ? (
               <GalleryAbout />
@@ -119,7 +119,7 @@ export default function About({ modal = true, showGallery, colorMode }) {
               {modal && <AboutModal colorMode={colorMode} />}
             </MotionDivDownToUp>
           </div>
-        </div>
+        </div> */}
       </SectionWrapper>
     </SectionArea>
   )
