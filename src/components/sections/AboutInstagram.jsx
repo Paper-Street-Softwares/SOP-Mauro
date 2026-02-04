@@ -60,6 +60,7 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
             /> */}
             <Button
               aria-label={t('hero.ctaButtonAriaLabel')}
+              onClick={() => gtag_report_conversion()}
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

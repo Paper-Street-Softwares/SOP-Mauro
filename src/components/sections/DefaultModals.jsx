@@ -10,6 +10,8 @@ import SectionWrapper from '../sectionElements/SectionWrapper'
 import MotionDivDownToUp from '../animation/MotionDivDownToUp'
 import IconButtonFeatureCard from '../cards/IconButtonFeatureCard'
 
+import 'primereact/resources/themes/lara-light-cyan/theme.css'
+
 export default function FeaturesParagraphs({ colorMode, modal }) {
   const { t } = useTranslation()
   const [visible, setVisible] = useState(false)
@@ -27,7 +29,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
             __html: t(`features.card${cardNum}.description`),
           }}
         />
-      </div>
+      </div>,
     )
 
     setVisible(true)
@@ -72,6 +74,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
+                  id="feature"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -105,6 +108,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
+                  id="feature"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -144,6 +148,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
+                  id="feature"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -183,6 +188,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
+                  id="feature"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -222,6 +228,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
+                  id="feature"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -261,6 +268,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
+                  id="feature"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -308,6 +316,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
+                 id="feature"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -349,6 +358,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
+                 id="feature"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -390,6 +400,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
+                 id="feature"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -424,7 +435,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
         className="font-secondFont"
         closeIcon={<X size={20} />}
         header={
-          <div className="w-full border-b border-gray-300 pb-2">
+          <div className="w-full">
             <span dangerouslySetInnerHTML={{ __html: modalTitle }} />
           </div>
         }
@@ -433,7 +444,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
         style={{ width: '50vw' }}
         breakpoints={{ '4000px': '641px', '1024px': '641px', '641px': '85vw' }}
       >
-        {modalContent}
+        <div className="">{modalContent}</div>
       </Dialog>
     </SectionArea>
   )

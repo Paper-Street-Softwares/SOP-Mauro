@@ -4,6 +4,7 @@ import MotionDivDownToUp from '../animation/MotionDivDownToUp'
 import { getWhatsappLink } from '../util/WhatsappLink' // Importando a função
 
 export default function Button({
+  id,
   icon,
   label,
   onClick,
@@ -44,7 +45,8 @@ export default function Button({
   }
   const buttonColor = buttonColors[colorMode] || buttonColors.default
 
-  const shouldRedirectToWhatsapp = !buttonLink && !onClick
+  const shouldRedirectToWhatsapp = id !== 'feature'
+
   const finalButtonLink = shouldRedirectToWhatsapp
     ? getWhatsappLink()
     : buttonLink
@@ -52,6 +54,7 @@ export default function Button({
   return (
     <CustomTag
       tagName={CustomTagName}
+      id={id}
       {...(removeTarget ? {} : { target: '_blank' })}
       {...(removeAnchor ? {} : { href: finalButtonLink })}
       className="inline-block max-w-full w-fit"

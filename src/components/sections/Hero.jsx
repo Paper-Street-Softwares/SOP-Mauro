@@ -69,6 +69,7 @@ export default function Hero({
             <Button
               aria-label={t('hero.ctaButtonAriaLabel')}
               label={t('hero.ctaButtonText')}
+              onClick={() => gtag_report_conversion()}
               animation
               className="w-[100%]"
               icon={
@@ -309,6 +310,7 @@ export default function Hero({
                         <Button
                           aria-label={t('hero.ctaButtonAriaLabel')}
                           label={t('hero.ctaButtonText')}
+                          onClick={() => gtag_report_conversion()}
                           animation
                           className="w-[100%]"
                           icon={
@@ -401,6 +403,7 @@ export default function Hero({
                             <Button
                               aria-label={t('hero.ctaButtonAriaLabel')}
                               label={t('hero.ctaButtonText')}
+                              onClick={() => gtag_report_conversion()}
                               animation
                               className="w-[100%]"
                               icon={

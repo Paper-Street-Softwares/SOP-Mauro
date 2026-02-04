@@ -130,6 +130,7 @@ export default function ListGroupSocial({
           <Button
             aria-label={t('hero.ctaButtonAriaLabel')}
             label={t('navbar.ctaButtonTextResponsive')}
+            onClick={() => gtag_report_conversion()}
             className=""
             textclassName="text-paragraph3"
             size="small"

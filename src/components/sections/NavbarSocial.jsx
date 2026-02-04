@@ -115,7 +115,7 @@ export default function NavbarSocial({ colorMode, mode }) {
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
               width="263"
-              height='104'
+              height="104"
               className={`${
                 scrolling
                   ? 'w-[90%] transition-all duration-1000 '
@@ -129,6 +129,7 @@ export default function NavbarSocial({ colorMode, mode }) {
               <Button
                 aria-label={t('hero.ctaButtonAriaLabel')}
                 label={t('navbar.ctaButtonTextResponsive')}
+                onClick={() => gtag_report_conversion()}
                 size="small"
                 colorMode={colorMode}
                 icon={
