@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -141,33 +141,44 @@ Consultoria Jurídica Parnaíba.
     />
     <meta name="twitter:image" content="/favico/android-icon-192x192.png" />
     <meta name="twitter:url" content="https://http://www.mauromoncao.adv.br/" />
-    <!-- Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-17921763461"
+    ></script>
     <script>
-      ;(function (w, d, s, l, i) {
-        w[l] = w[l] || []
-        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : ''
-        j.async = true
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
-        f.parentNode.insertBefore(j, f)
-      })(window, document, 'script', 'dataLayer', 'GTM-MMKSHTQV')
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-17921763461");
     </script>
-    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+
+    <!-- Event snippet for Clique Botão CTA conversion page -->
+
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-17921763461/TloECPT_u_IbEIXR4eFC",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
+
+    <!-- Event snippet for Clique Botão CTA conversion page -->
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-MMKSHTQV"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
