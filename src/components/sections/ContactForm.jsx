@@ -173,7 +173,7 @@ export default function ContactForm() {
                 {' '}
                 <span>
                   {' '}
-                  <Mail />
+                  <Mail width={18} />
                 </span>
                 {isSubmitting ? 'Enviando...' : 'Enviar'}
               </p>
