@@ -33,6 +33,7 @@ function Pilares({ colorMode }) {
           miniTitle={t('pilares.miniTag')}
           sectionHeaderTitle={t('pilares.title')}
           type=""
+          miniTitleTextColor={`text-bgSectionDark`}
           titleColorSet={titleColor}
         />
 
