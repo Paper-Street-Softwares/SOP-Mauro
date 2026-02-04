@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -145,16 +145,20 @@ Consultoria Jurídica Parnaíba.
 
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-17921763461"
+      src="https://www.googletagmanager.com/gtag/js?id=G-1E76J20N29"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag('js', new Date())
+      gtag("js", new Date());
 
-      gtag('config', 'AW-17921763461')
+      // Google Analytics (GA4)
+      gtag("config", "G-1E76J20N29");
+
+      // Google Ads
+      gtag("config", "AW-17921763461");
     </script>
 
     <!-- Google tag (gtag.js) -->
@@ -162,22 +166,10 @@ Consultoria Jurídica Parnaíba.
     <!-- Event snippet for Clique Botão CTA conversion page -->
 
     <script>
-      // function gtag_report_conversion(url) {
-      //   var callback = function () {
-      //     if (typeof url != 'undefined') {
-      //       window.location = url
-      //     }
-      //   }
-      //   gtag('event', 'conversion', {
-      //     send_to: 'AW-17921763461/TloECPT_u_IbEIXR4eFC',
-      //     event_callback: callback,
-      //   })
-      //   return false
-      // }
       function gtag_report_conversion() {
-        gtag('event', 'conversion', {
-          send_to: 'AW-17921763461/TloECPT_u_IbEIXR4eFC',
-        })
+        gtag("event", "conversion", {
+          send_to: "AW-17921763461/TloECPT_u_IbEIXR4eFC",
+        });
       }
     </script>
 
