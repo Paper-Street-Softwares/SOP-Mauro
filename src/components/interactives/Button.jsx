@@ -92,7 +92,6 @@ export default function Button({
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}
             >
-              {icon && <div className={`${buttonColor}`}>{icon}</div>}
               <p
                 className={`flex items-center ${textSizeClass} ${
                   labelColor || buttonColor
@@ -100,6 +99,7 @@ export default function Button({
               >
                 {label}
               </p>
+              {icon && <div className={`${buttonColor}`}>{icon}</div>}
             </div>
           </button>
         </div>

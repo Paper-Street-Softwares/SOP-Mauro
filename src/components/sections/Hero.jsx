@@ -43,7 +43,7 @@ export default function Hero({
       <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
         <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-mainFont text-paragraph4">
           <p
-            className={`mb-[16px] rounded-md px-[16px] py-[6px] inline-block text-paragraph2 ${minititleColor}`}
+            className={`mb-[16px] rounded-md py-[6px] inline-block text-paragraph2 ${minititleColor}`}
           >
             {t('hero.miniTag')}
           </p>
@@ -137,9 +137,7 @@ export default function Hero({
     })
   } else {
     HeroContent = renderHeroContent({
-      minititleColor: isMobile
-        ? 'bg-minititle text-minititleLightLabel'
-        : 'bg-minititle text-minititleDarkLabel',
+      minititleColor: isMobile ? 'text-primary' : 'text-primary',
       titleTextColor: 'text-white',
       subtitleTextColor: 'text-white',
       obsTextColorOverride: 'text-white',

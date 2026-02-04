@@ -1,4 +1,4 @@
-import { Instagram, Linkedin } from 'lucide-react'
+import { Instagram, Linkedin, Mail } from 'lucide-react'
 import content from '../../content/content'
 import emailjs from 'emailjs-com'
 import { useState } from 'react'
@@ -44,6 +44,8 @@ export default function ContactForm() {
       .then(
         () => {
           alert('Mensagem enviada por email com sucesso!')
+          gtag_report_conversion()
+
           setIsSubmitting(false)
           // Limpar campos
           setName('')
@@ -163,11 +165,18 @@ export default function ContactForm() {
 
             <button
               type="button"
-              className="w-full bg-primary py-4 font-semibold uppercase tracking-wide text-black transition duration-500 rounded-md hover:scale-105"
+              className="w-full bg-primary py-4 tracking-wide text-black transition duration-500 rounded-md hover:scale-105"
               onClick={sendToEmail}
               disabled={isSubmitting}
             >
-              {isSubmitting ? 'Enviando...' : 'Enviar'}
+              <p className="flex items-center gap-3 justify-center">
+                {' '}
+                <span>
+                  {' '}
+                  <Mail width={18} />
+                </span>
+                {isSubmitting ? 'Enviando...' : 'Enviar'}
+              </p>
             </button>
           </form>
 
