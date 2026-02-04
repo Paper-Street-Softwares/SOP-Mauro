@@ -9,6 +9,7 @@ import SectionHeader from '../sectionElements/SectionHeader'
 import SectionWrapper from '../sectionElements/SectionWrapper'
 import MotionDivDownToUp from '../animation/MotionDivDownToUp'
 import IconButtonFeatureCard from '../cards/IconButtonFeatureCard'
+import { ArrowRight } from 'lucide-react'
 
 import 'primereact/resources/themes/lara-light-cyan/theme.css'
 
@@ -76,24 +77,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 <Button
                   id="feature"
                   icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
+                    <ArrowRight width={18} className="text-bgSectionDark" />
                   }
                   size="small"
-                  className=" mt-4"
+                  labelColor={`text-bgSectionDark`}
+                  className="mt-4 bg-transparent pt-1 pb-1"
                   label={t('features.card1.buttonLabel')}
                   onClick={() => openModal(1)}
                 />
@@ -110,24 +98,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 <Button
                   id="feature"
                   icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
+                    <ArrowRight width={18} className="text-bgSectionDark" />
                   }
                   size="small"
-                  className=" mt-4"
+                  labelColor={`text-bgSectionDark`}
+                  className="mt-4 bg-transparent pt-1 pb-1"
                   label={t('features.card2.buttonLabel')}
                   onClick={() => openModal(2)}
                 />
@@ -150,24 +125,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 <Button
                   id="feature"
                   icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
+                    <ArrowRight width={18} className="text-bgSectionDark" />
                   }
                   size="small"
-                  className=" mt-4"
+                  labelColor={`text-bgSectionDark`}
+                  className="mt-4 bg-transparent pt-1 pb-1"
                   label={t('features.card3.buttonLabel')}
                   onClick={() => openModal(3)}
                 />
@@ -190,24 +152,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 <Button
                   id="feature"
                   icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
+                    <ArrowRight width={18} className="text-bgSectionDark" />
                   }
                   size="small"
-                  className=" mt-4"
+                  labelColor={`text-bgSectionDark`}
+                  className="mt-4 bg-transparent pt-1 pb-1"
                   label={t('features.card4.buttonLabel')}
                   onClick={() => openModal(4)}
                 />
@@ -230,24 +179,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 <Button
                   id="feature"
                   icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
+                    <ArrowRight width={18} className="text-bgSectionDark" />
                   }
                   size="small"
-                  className=" mt-4"
+                  labelColor={`text-bgSectionDark`}
+                  className="mt-4 bg-transparent pt-1 pb-1"
                   label={t('features.card5.buttonLabel')}
                   onClick={() => openModal(5)}
                 />
@@ -270,24 +206,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 <Button
                   id="feature"
                   icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
+                    <ArrowRight width={18} className="text-bgSectionDark" />
                   }
                   size="small"
-                  className=" mt-4"
+                  labelColor={`text-bgSectionDark`}
+                  className="mt-4 bg-transparent pt-1 pb-1"
                   label={t('features.card6.buttonLabel')}
                   onClick={() => openModal(6)}
                 />
@@ -317,23 +240,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
               >
                 <Button
                  id="feature"
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                  icon={<ArrowRight/>}
                   size="small"
                   className="bg-darker"
                  
@@ -359,23 +266,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
               >
                 <Button
                  id="feature"
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                  icon={<ArrowRight/>}
                   size="small"
                   className="bg-darker"
                  
@@ -401,23 +292,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
               >
                 <Button
                  id="feature"
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                  icon={<ArrowRight/>}
                   size="small"
                   className="bg-darker"
                  
